@@ -2,18 +2,16 @@ body {
     font-family: "Verdana", sans-serif;
     font-size: 14px;
     line-height: 20px;
-    padding: 0;
     margin: 0
 }
 
-
-.smallpic {
+.envelope_icon {
     width: 17px;
     height: 12px;
     margin: 20 12
 }
 
-.smallpict {
+.telephone_icon {
     height: 17px;
     width: 17px;
     margin: 16 12
@@ -24,24 +22,11 @@ h2 {
     font-weight: bold;
     font-size: 24px;
     line-height: 27px;
-    font-family: "Courier New", monospace;
+    font-family: "Courier New", monospace
 }
 
-.h2contr {
-    padding-bottom: 30px
-}
-
-.h2contr1 {
-    padding-top: 30px
-}
-
-.h2dist {
-    margin-top: 49px
-}
-
-b,
 strong {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 li strong {
@@ -49,20 +34,13 @@ li strong {
 }
 
 li span {
-    color: #000000
-}
-
-samp {
-    display: none;
-}
-
-img {
-    background: transparent
+    color: #000000;
+    font-family: "DejaVu Sans Mono", monospace
 }
 
 div {
     display: flex;
-    flex-direction: row;
+    flex-direction: row
 }
 
 h1 {
@@ -72,20 +50,18 @@ h1 {
     font-size: 45px;
     line-height: 50px;
     font-family: "Courier New", monospace;
-    color: white;
+    color: white
 }
 
-.header0000 {
+.top_header {
     display: flex;
     margin-bottom: 95px;
     margin: 0 auto;
     width: 1040px;
-    padding-top: 20px;
-
+    padding-top: 20px
 }
 
-
-.megaheader {
+.main_header {
     width: 1040px;
     background-color: #222222;
     padding-top: 50px;
@@ -93,105 +69,94 @@ h1 {
     margin: 0 auto;
     background-image: url(../img/moon-rocket.png);
     background-repeat: no-repeat;
-    background-position: 520px 10px;
-
+    background-position: 520px 10px
 }
 
-.megaheader1 {
-    display: block;
+.mega_header {
     background-color: #222222;
     padding-top: 50px;
-    padding-bottom: 180px;
-
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column
 }
 
-
-.header0 {
+.header_text {
     background-color: #222222;
-    display: block;
     width: 300px;
-    padding-left: 120px
-}
-
-.header1 {
-    background-color: #222222
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column
 }
 
 .advantages {
     background: #131313;
-    display: block;
-    padding: 85px 0;
+    padding: 85px 0
 }
 
-.entvantages {
+.sub_advantages {
     width: 1040px;
     margin: 0 auto
 }
 
-.advantages1 {
+.left_advantages {
     width: 180px;
     display: flex;
     flex-direction: column;
     padding-right: 80px
 }
 
-.advantages2 {
+.center-left_advantages {
     width: 180px;
     display: flex;
     flex-direction: column;
     padding-right: 80px
 }
 
-.advantages3 {
+.center-right_advantages {
     width: 180px;
     display: flex;
     flex-direction: column;
     padding-right: 80px
 }
 
-.advantages4 {
+.right_advantages {
     width: 180px;
     display: flex;
     flex-direction: column;
     padding-right: 80px
 }
 
-.content0 {
-    background-color: #FFFFFF;
-    height: 808px;
-    display: block
-}
-
-.contentall {
+.content_top {
     width: 1040px;
-    display: block;
     margin: 0 auto
 }
 
-.contentall1 {
+.content_top p {
+    font-family: "DejaVu Sans Mono", monospace
+}
+
+.content_bottom {
     width: 1040px;
-    display: block;
     margin: 0 auto
 }
 
-.contenttop {
+.sub_content_top {
     display: flex;
     flex-direction: row;
     width: 1040px;
     padding-top: 80px
 }
 
-.contenttl {
+.content_top_left_block {
     padding-right: 80px
 }
 
-
-.contenttr {
+.content_top_right_block {
     display: flex;
     flex-direction: column
 }
 
-.contentbott {
+.sub_content_bottom {
     width: 1040px;
     display: flex;
     flex-direction: row;
@@ -203,127 +168,88 @@ h1 {
     background-color: #131313
 }
 
-.contentbl {
+.content_bottom_left_block {
     display: flex;
     flex-direction: column;
     width: 440px
 }
 
-.contentbr {
+.content_bottom_right_block {
     display: flex;
     flex-direction: column;
     width: 440px;
     padding-left: 80px
 }
 
-.basement1 {
+.basement_left {
     margin-top: 30px;
     width: 180px;
     display: flex;
     flex-direction: column
 }
 
-.basement2 {
+.basement_right {
     display: flex;
     width: 720px;
     margin-top: 30px;
     padding-left: 80px
 }
 
-.basement0 {
+.sub_basement {
     width: 1040px;
     margin: 0 auto
 }
 
 p {
-    color: #d4d4d4;
-    display: block
+    color: #d4d4d4
 }
 
-
-smallpic2 {
-    width: 17px;
-    height: 17px;
-    margin-top: 20px;
-    margin-left: 800px
-}
-
-.button11 {
+.header_button {
     width: 210px;
     height: 45px;
     background: #FFFF00;
     cursor: pointer
 }
 
-.picsize {
+.map_icon {
     height: 345px;
-    width: 440px;
+    width: 440px
 }
 
-.sps {
+.advantages_icon {
     width: 60px;
     height: 68px
 }
 
-.pright {
-    float: right;
+.black_colour {
+    color: #000000
 }
 
-.pcolor {
-    color: #424242
-}
-
-.pdistance1 {
-    margin-top: 83px
-}
-
-.ppdistance {
-    margin-left: 12px
-}
-
-.h2distance {
-    margin-left: 8px
-}
-
-.lidistance {
-    margin-left: 8px
-}
-
-.ppcolor {
-    color: #000000;
-}
-
-
-.smallpic1 {
+.logo_icon {
     height: 60px;
-    width: 60px;
-}
-
-
-.whitecolor {
-    color: white
+    width: 60px
 }
 
 ul {
     margin-left: 0;
     padding-left: 0;
-    list-style: none;
+    list-style: none
 }
 
-.ulcon {
+.content_list {
     margin-left: 15px;
     list-style: inherit
 }
 
 .ul1 {
-    margin-top: 41px;
-    color: #696969;
+    margin-top: 5px;
+    color: #696969
 }
 
 .li1 {
     margin-top: 70px;
     color: #696969;
-    list-style-type: none;
+    list-style-type: none
 }
 
 .li2 {
@@ -332,18 +258,12 @@ ul {
     color: #808080
 }
 
-.licolor {
+.sub_list_color {
     color: #feca30;
     padding-bottom: 20px
 }
 
-h4 {
-    color: #ffffff;
-    border-bottom: 1px solid #555555;
-    padding-bottom: 20px
-}
-
-.ul11 {
+.header_list {
     margin-left: 50px;
     list-style: none;
     word-spacing: 20px;
@@ -351,15 +271,15 @@ h4 {
 }
 
 li {
-    color: #d4d4d4;
+    color: #d4d4d4
 }
 
-.li11 {
+.header_sublist {
     display: inline;
-    word-spacing: 10px;
+    word-spacing: 10px
 }
 
-.a1 {
+.header_ref {
     text-decoration: none;
     cursor: pointer;
     color: #d4d4d4
@@ -367,24 +287,28 @@ li {
 
 .timetable {
     background: #222222;
-    margin: 0 auto;
     padding: 80px 0;
-    display: block
-}
-
-.timetable11 {
     display: flex;
-    justify-content: flex-start;
-    margin-bottom: 55px;
+    flex-direction: column
 }
 
-.timetable12 {
+.timetable_schedule {
+    margin: 0 auto;
+    width: 1040px
+}
+
+.timetable_description {
     width: 1040px;
-    display: block;
+    margin-bottom: 55px;
     margin: 0 auto
 }
 
-.hyl {
+.sub_timetable {
+    width: 1040px;
+    margin: 0 auto
+}
+
+.yellow_orange {
     color: #ffce31
 }
 
@@ -396,12 +320,8 @@ td {
     width: 180px
 }
 
-tbody {
-    width: 100%
-}
-
-.tr1 {
-    background: #000000;
+.tr_timetable {
+    background: #000000
 }
 
 table {
@@ -409,36 +329,30 @@ table {
     width: 100%
 }
 
-.p1 {
+.white_color {
     color: white
 }
 
-.text1 {
+.text_form_full {
     height: 55px;
     width: 440px;
     margin-top: 10px;
     background: #ffffff
 }
 
-.text2 {
+.text_form_part {
     width: 217px;
     height: 55px;
     margin-top: 10px;
     background: #ffffff
 }
 
-.text3 {
-    width: 217px;
-    height: 55px;
-    margin-top: 10px;
-    background: #ffffff
-}
-
-.button1 {
+.vacation-request_button {
     margin-top: 10px;
     width: 210px;
     height: 60px;
-    background-color: #000000;
+    background-color: #3D3533;
+    color: white;
     cursor: pointer
 }
 
@@ -448,58 +362,46 @@ table {
     margin: 0 auto
 }
 
-.v-ra {
+.sub_vacation-request {
     width: 1040px;
     margin: 0 auto
 }
 
-.vacation-request1 {
-    display: table-cell;
+.vacation-request_left {
     width: 440px;
-    margin-right: 80px
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column
 }
 
-.vacation-request2 {
-    width: 440px;
-    display: block
+.vacation-request_right {
+    width: 440px
 }
 
-.basementul {
+.basement_list {
     display: flex;
     list-style: none
 }
 
-.libase {
+.sub_list_basement {
     margin-right: 60px;
     width: 180px;
     margin-top: 25px
 }
 
-.abase {
+.sub_list_ref_basement {
     text-decoration: none;
     border-bottom: 1px solid #555555;
     margin-bottom: 50px;
     padding-bottom: 20px;
-    color: white;
-    display: block
+    color: white
 }
 
-
-.libd {
-    padding-top: 18px
+.sub_list_top_padding {
+    padding-top: 28px
 }
 
-.abase1 {
+.sub_sub_list_ref_basement {
     color: #888888;
     text-decoration: none
-}
-
-.aorb {
-    color: #feca30
-}
-
-.h2c {
-    color: white;
-    padding-top: 15px;
-    font-family: monospace
 }
