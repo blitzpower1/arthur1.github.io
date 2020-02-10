@@ -241,21 +241,15 @@ ul {
     list-style: inherit
 }
 
-.ul1 {
+.basement_list_left {
     margin-top: 5px;
     color: #696969
 }
 
-.li1 {
+.basement_sub_list_left {
     margin-top: 70px;
     color: #696969;
     list-style-type: none
-}
-
-.li2 {
-    list-style-type: none;
-    margin-top: 23px;
-    color: #808080
 }
 
 .sub_list_color {
