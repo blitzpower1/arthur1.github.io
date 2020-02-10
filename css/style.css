@@ -7,14 +7,12 @@ body {
 
 .envelope_icon {
     width: 17px;
-    height: 12px;
-    margin: 20 12
 }
 
 .telephone_icon {
     height: 17px;
     width: 17px;
-    margin: 16 12
+    margin-left: 20px
 }
 
 h2 {
@@ -335,7 +333,7 @@ table {
 }
 
 .text_form_part {
-    width: 217px;
+    width: 210px;
     height: 55px;
     margin-top: 10px;
     background: #ffffff
@@ -398,4 +396,10 @@ table {
 .sub_sub_list_ref_basement {
     color: #888888;
     text-decoration: none
+}
+
+.contact_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
