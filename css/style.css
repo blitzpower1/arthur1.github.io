@@ -32,8 +32,7 @@ li strong {
 }
 
 li span {
-    color: #000000;
-    font-family: "DejaVu Sans Mono", monospace
+    color: #000000
 }
 
 div {
@@ -127,10 +126,6 @@ h1 {
 .content_top {
     width: 1040px;
     margin: 0 auto
-}
-
-.content_top p {
-    font-family: "DejaVu Sans Mono", monospace
 }
 
 .content_bottom {
@@ -286,7 +281,8 @@ li {
 
 .timetable_schedule {
     margin: 0 auto;
-    width: 1040px
+    width: 1040px;
+    padding-top: 55px
 }
 
 .timetable_description {
@@ -321,8 +317,9 @@ table {
     width: 100%
 }
 
-.white_color {
-    color: white
+.additional_information_timetable {
+    color: white;
+    padding-left: 380px
 }
 
 .text_form_full {
